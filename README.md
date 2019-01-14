@@ -1,5 +1,5 @@
 # Algorithms
-An implementation of multiple algorithms
+An implementation of a variety algorithms
 
 # Algorithms implementated:
 ## Sorts:
