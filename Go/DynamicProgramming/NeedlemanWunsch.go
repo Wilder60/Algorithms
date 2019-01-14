@@ -1,4 +1,4 @@
-package NeedlemanWunsch
+package DynamicProgramming
 
 import "fmt"
 import "sort"
@@ -81,6 +81,7 @@ func scoring(FirstLetter byte, SecondLetter byte) int {
 	return -1
 }
 
+//Two functions to display both matrices that are used in the algorithm
 func (NW needlemanWunsh) DisplayScoreMatrix() {
 	for i := range NW.ScoreMatrix {
 		fmt.Println(NW.ScoreMatrix[i])
@@ -93,6 +94,7 @@ func (NW needlemanWunsh) DisplayDirectionMatrix() {
 	}
 }
 
+//Reverses a returns a given string
 func reverse(s string) string {
 	rs := []rune(s)
 	for i, j := 0, len(rs)-1; i < j; i, j = i+1, j-1 {
@@ -101,6 +103,9 @@ func reverse(s string) string {
 	return string(rs)
 }
 
+//Traverses through the matrix to find the aligment for the two sequences
+//It does this but checking the Direction matrix for the directions at a
+//given a location and finded the lowest value for it
 func (NW needlemanWunsh) FindAllOptimalPath() (string, string) {
 	var row int = len(NW.DNASequence1)
 	var column int = len(NW.DNASequence2)
