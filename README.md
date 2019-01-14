@@ -7,5 +7,6 @@ An implementation of multiple algorithms
 - Selection Sort (Go)
 - Bubble Sort (Go)
 - Quick Sort (Go)
-## Other:
+## Dynamic Programming:
+- Fibonacci Numbers (Go)
 - Needleman-Wunsh Global Aligment (Go)
