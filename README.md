@@ -1,5 +1,6 @@
 # Algorithms
-An implementation of a variety algorithms
+An implementation of a variety algorithms in multiple languages.
+Hopefully it will be expanded upon whenever I have time.
 
 # Algorithms implementated:
 ## Sorts:
