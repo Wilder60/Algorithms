@@ -11,3 +11,7 @@ Hopefully it will be expanded upon whenever I have time.
 ## Dynamic Programming:
 - Fibonacci Numbers (Go)
 - Needleman-Wunsh Global Aligment (Go)
+## Searches:
+- Binary Search
+- Breath First Search
+- Depth First Search
